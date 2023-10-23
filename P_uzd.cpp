@@ -4,22 +4,24 @@ using namespace std;
 
 int main()
 {
-    int sk;
-    cout << "Ievadiet skaitli: ";
-    cin >> sk;
+    int num;
+    //cout << "Ievadiet skaitli: ";
+    //cin >> num;
     cout << endl;
 
-    if (sk > 1){
-        if ((sk % 2) && (sk % 3)){
-            cout << "Skaitlis " << sk << " ir pirmskaitlis.";
+    for (int num = 1; num <= 1000; num++){
+    if (num > 1){
+        if ((num % 2) && (num % 3) && (num % 5)){
+            cout << "Skaitlis " << num << " ir pirmskaitlis.";
         }
-        else if (sk == 2 || sk == 3){
-            cout << "Skaitlis " << sk << " ir pirmskaitlis.";
+        else if (num == 2 || num == 3 || num == 5){
+            cout << "Skaitlis " << num << " ir pirmskaitlis.";
         } 
         else {
-        cout << "Skaitlis " << sk << " nav pirmskaitlis!";
+        cout << "Skaitlis " << num << " nav pirmskaitlis!";
         }
     }else{
-        cout << "Skaitlis " << sk << " nav pirmskaitlis!";
+        cout << "Skaitlis " << num << " nav pirmskaitlis!";
+    }
     }
 }
