@@ -5,8 +5,8 @@ using namespace std;
 int main()
 {
     int num;
-    //cout << "Ievadiet skaitli: ";
-    //cin >> num;
+    cout << "Ievadiet skaitli: ";
+    cin >> num;
     cout << endl;
 
     for (int num = 1; num <= 1000; num++){
