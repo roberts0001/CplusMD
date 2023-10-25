@@ -4,7 +4,7 @@ using namespace std;
 
 int main()
 {
-    int n, sum;
+    int n, sum = 0;
     cout << "Ievadiet skatili n: ";
     cin >> n;
 
