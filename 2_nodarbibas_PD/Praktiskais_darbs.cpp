@@ -6,7 +6,7 @@ using namespace std;
 int main()
 {
     string teksts = "Programmas ir jaraksta cilvekiem, kas tas lasis!";
-    int choice, num, length, sum, factorial;;
+    int choice, num, length, sum, factorial;
 
     cout << "--- Šī C++ programma veic sekojošās darbības ---" << endl;
     cout << "1. Ievadīt jaunu tekstu (parastie burti)\n2. Pasaka vai ievadītā teksta garums ir pāra vai nepāra skaitlis\n3. Izvada summu no 1..n (kur n = teksta garums)\n4. Atrod faktoriāli n (kur n = teksta garums)\n5. Izvada virkni no otrā gala (reversā)\n6. Beigt darbību" << endl;
